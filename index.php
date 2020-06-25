@@ -7,17 +7,30 @@
     <title>registration page</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <form>
+    <div class="container col-md-6">
+        <div class="row col-md-6">
+            <form action="" method="POST">
                 <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Enter your email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <h1>REGISTRATION</h1>
+                </div>
+                <div class="form-group">
+                    First Name:
+                    <input type="text" class="form-control" placeholder="enter your first name" id="firstname" >
     
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Enter your password" id="exampleInputPassword1">
+                    Last Name:
+                    <input type="text" class="form-control" placeholder="Enter your last name" id="lastname">
                  </div>
-                 <button type="submit" class="btn btn-primary">Submit</button>
+                 <div class="form-group">
+                    Email:
+                    <input type="email" class="form-control" placeholder="Enter your Email" id="email">
+                 </div>
+                 <div class="form-group">
+                    Password
+                    <input type="Password" class="form-control" placeholder="Enter your Password" id="password">
+                 </div>
+                 <button type="submit" class="btn btn-primary" value="submit">submit</button>
             </form>
             
         </div>
